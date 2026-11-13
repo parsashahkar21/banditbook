@@ -4,6 +4,8 @@ Educational Python implementations of algorithms from
 [*Bandit Algorithms*](https://tor-lattimore.com/downloads/book/book.pdf)
 by Tor Lattimore and Csaba Szepesvári.
 
+**Authors:** Parsa Shahkar, Arian Jafari, and Paniz Roozegar
+
 Focused on mathematical correctness, reproducibility, and clear separation between
 learner-visible feedback and evaluator-only information. This is **not** an official
 companion to the book and does **not** redistribute the PDF or copy book text.
@@ -23,7 +25,7 @@ companion to the book and does **not** redistribute the PDF or copy book text.
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/banditbook.git
+git clone https://github.com/parsashahkar21/banditbook.git
 cd banditbook
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate

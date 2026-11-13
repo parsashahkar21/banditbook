@@ -8,7 +8,11 @@ version = "0.1.0"
 description = "Educational implementations from Bandit Algorithms (Lattimore & Szepesvári)"
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [{ name = "Parsa Shahkar" }]
+authors = [
+  { name = "Parsa Shahkar" },
+  { name = "Arian Jafari" },
+  { name = "Paniz Roozegar" },
+]
 dependencies = [
   "numpy>=1.24",
   "matplotlib>=3.7",
@@ -25,8 +29,8 @@ dev = [
 banditbook-experiment = "banditbook.experiments:main"
 
 [project.urls]
-Homepage = "https://github.com/parsashahkar/banditbook"
-Documentation = "https://github.com/parsashahkar/banditbook/tree/main/docs"
+Homepage = "https://github.com/parsashahkar21/banditbook"
+Documentation = "https://github.com/parsashahkar21/banditbook/tree/main/docs"
 Book = "https://tor-lattimore.com/downloads/book/book.pdf"
 
 [tool.setuptools.packages.find]
