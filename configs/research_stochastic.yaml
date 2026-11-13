@@ -1,0 +1,17 @@
+title: "Research — Bernoulli stochastic comparison"
+horizon: 5000
+n_runs: 30
+seed: 42
+metric: pseudo
+environment:
+  type: bernoulli
+  probabilities: [0.1, 0.2, 0.3, 0.4, 0.5]
+algorithms:
+  - name: etc
+    params: {m: 40}
+  - name: ucb_asymptotic
+  - name: ucb_delta
+  - name: moss
+  - name: kl_ucb
+  - name: ucb_tunable
+    params: {c: 1.5}

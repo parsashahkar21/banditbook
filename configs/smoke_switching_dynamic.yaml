@@ -1,0 +1,14 @@
+title: "Smoke — switching sequence with DYNAMIC comparator (separate from external)"
+horizon: 600
+n_runs: 5
+seed: 3
+metric: dynamic
+share_oblivious_table: true
+environment:
+  type: switching
+  n_arms: 3
+  switch_interval: 100
+algorithms:
+  - name: exp3
+  - name: exp3ix
+  - name: uniform_random

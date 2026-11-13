@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging / envs
+.venv/
+venv/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Test / type / lint caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Generated experiment outputs (keep folder)
+results/**
+!results/.gitkeep
+*.npz
+
+# Matplotlib local cache if created in-repo
+.matplotlib/
+
+# Docs build
+docs/_build/

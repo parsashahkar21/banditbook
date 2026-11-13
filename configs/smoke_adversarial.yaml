@@ -1,0 +1,13 @@
+title: "Smoke — oblivious adversarial comparison (shared reward table)"
+horizon: 500
+n_runs: 5
+seed: 1
+metric: external
+share_oblivious_table: true
+environment:
+  type: oblivious_bernoulli
+  probabilities: [0.2, 0.5, 0.7]
+algorithms:
+  - name: uniform_random
+  - name: exp3
+  - name: exp3ix

@@ -1,0 +1,13 @@
+title: "Smoke — switching sequence (external vs dynamic reported separately)"
+horizon: 600
+n_runs: 5
+seed: 3
+metric: external
+share_oblivious_table: true
+environment:
+  type: switching
+  n_arms: 3
+  switch_interval: 100
+algorithms:
+  - name: exp3
+  - name: exp3ix

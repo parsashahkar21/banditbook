@@ -1,0 +1,18 @@
+title: "Smoke — Gaussian stochastic (σ=1)"
+horizon: 400
+n_runs: 5
+seed: 2
+metric: pseudo
+environment:
+  type: gaussian
+  # Preserved ambiguity note: historical main.py used means [0.1, 0.5, 0.8, 0.1, 0.1, 0, 1]
+  # i.e. seven arms ending in 0 and 1 (not 0.1). Smoke uses a smaller instance.
+  means: [0.0, -0.2, -0.5]
+  stds: [1.0, 1.0, 1.0]
+algorithms:
+  - name: etc
+    params: {m: 15}
+  - name: ucb_asymptotic
+  - name: ucb_tunable
+    params: {c: 2.0}
+  - name: moss

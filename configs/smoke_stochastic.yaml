@@ -1,0 +1,15 @@
+title: "Smoke — stochastic Bernoulli comparison"
+horizon: 500
+n_runs: 5
+seed: 0
+metric: pseudo
+environment:
+  type: bernoulli
+  probabilities: [0.2, 0.5, 0.7]
+algorithms:
+  - name: uniform_random
+  - name: etc
+    params: {m: 10}
+  - name: ucb_asymptotic
+  - name: moss
+  - name: kl_ucb

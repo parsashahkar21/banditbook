@@ -1,0 +1,23 @@
+title: "Smoke — ETC m and tunable UCB c sensitivity"
+horizon: 800
+n_runs: 8
+seed: 11
+metric: pseudo
+environment:
+  type: bernoulli
+  probabilities: [0.45, 0.55]
+algorithms:
+  - name: etc
+    label: etc_m10
+    params: {m: 10}
+  - name: etc
+    label: etc_m40
+    params: {m: 40}
+  - name: ucb_tunable
+    label: ucb_c0.5
+    params: {c: 0.5}
+  - name: ucb_tunable
+    label: ucb_c2
+    params: {c: 2.0}
+  - name: ucb_asymptotic
+    label: ucb_asymptotic
