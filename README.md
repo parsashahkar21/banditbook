@@ -4,7 +4,11 @@ Educational Python implementations of algorithms from
 [*Bandit Algorithms*](https://tor-lattimore.com/downloads/book/book.pdf)
 by Tor Lattimore and Csaba Szepesvári.
 
-**Authors:** Parsa Shahkar, Arian Jafari, and Paniz Roozegar
+## Authors
+
+- [Arian Jafari](https://github.com/Arian-jafari)
+- [Parsa Shahkar](https://github.com/parsashahkar21)
+- [Paniz Roozegar](https://github.com/paniizz)
 
 Focused on mathematical correctness, reproducibility, and clear separation between
 learner-visible feedback and evaluator-only information. This is **not** an official
